@@ -40,18 +40,23 @@
 }
 }
 
-// .card-img-overlay    {
-// 	display: none;
-// }
+.card-img-overlay    {
+	display: none;
+}
 
-// .card{
-// 	z-index: 0;
-// }
+.card-img:hover + .card-img-overlay {
+	display: inline-block;
+}
 
-// .card-img-overlay:hover{
-// 	display: block;
-// 	z-index: 1;
-// }
+.card-img:hover {
+	 -webkit-filter: brightness(40%);
+    -webkit-transition: all .5s ;
+    -moz-transition: all .5s ;
+    -o-transition: all .5s ;
+    -ms-transition: all .5s ;
+    transition: all .5s ;
+}
+
 
 .card-img-overlay .btn{
 	background-color: none;
