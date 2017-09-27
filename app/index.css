@@ -16,8 +16,6 @@
 
 .jumbotron{
 	background-color: #262626;
-	//max-height: 250px;
-	//overflow: auto;
 	display: inline-block;
 	width: 100%;
 
@@ -29,15 +27,33 @@
 	text-align: center;
 }
 
+.jumbotron h1:hover {
+	color: #fff;
+	font-family: 'Rokkitt', serif;
+	text-align: center;
+}
+
+.jumbotron .btn{
+	margin-right: 25px;
+}
+
 .display-3{
 	    font-size: 6.5rem;
 }
 
-@media (min-width: 576px){
-
-.jumbotron {
-    padding: 2rem 2rem;
+.btn {
+	color: #e84b12;
+	border-color: #e84b12;
 }
+
+.btn:hover{
+	background-color: none;
+	color:#fff;
+	border-color: #fff;
+}
+
+.card-title{
+	font-family: 'Rokkitt', serif;
 }
 
 .card-img-overlay    {
@@ -50,11 +66,11 @@
 
 .card-img:hover {
 	 -webkit-filter: brightness(40%);
-    -webkit-transition: all .5s ;
-    -moz-transition: all .5s ;
-    -o-transition: all .5s ;
-    -ms-transition: all .5s ;
-    transition: all .5s ;
+    -webkit-transition: all .4s ;
+    -moz-transition: all .4s ;
+    -o-transition: all .4s ;
+    -ms-transition: all .4s ;
+    transition: all .4s ;
 }
 
 
@@ -64,41 +80,37 @@
 	margin: auto 0px;
 }
 
-.card-img-overlay .btn:hover{
-	background-color: none;
-	width: 100%;
-	margin: auto 0px;
-	color:#fff;
-}
+// .card-img .btn:hover{
+// 	background-color: none;
+// 	width: 100%;
+// 	margin: auto 0px;
+// 	color:#fff !important;
+// }
 
-.card-title{
-	font-family: 'Rokkitt', serif;
-}
 
-.btn:firstchild(){
-	margin-left: 10px;
-}
-
-.btn {
-	color: #e84b12;
-	border-color: #e84b12;
-}
-
-.btn:hover{
-	background-color: none;
-	color:#fff;
-	border-color: #2d1911;
-}
-
-.jumbotron .btn{
-	margin-right: 25px;
-}
 
 .footer {
 	margin-top: 25px;
+
 }
 
+.footer:hover + .footlogo {
+	color: orange;
+}
 
+@media (min-width: 576px){
+
+	.jumbotron {
+	    padding: 2rem 2rem;
+	}
+}
+
+@media (max-width: 510px) and (min-width: 411px){
+
+	.jumbotron h1{
+		font-size: 5rem;
+	}
+}
 @media(max-width: 410px){
 	.jumbotron .btn {
 		margin-right: 0px;
