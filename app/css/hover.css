@@ -2,7 +2,7 @@
   GLOBAL
 ============================================================ */
 .effects {
-  padding-left: 15px;
+  // padding-left: 15px;
 }
 .effects .img {
   position: relative;
@@ -117,7 +117,7 @@ a.expand {
 \* ------------------------------------------------------------ */
 @media only screen and (max-width: 1100px) {
   .effects {
-    padding-left: 5px;
+    //padding-left: 5px;
   }
   .effects .img {
     width: 50%;
