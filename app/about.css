@@ -10,7 +10,9 @@ h2, h3, h4, h5, p, a {
 	margin-bottom: 20px;
 }
 
-
+span{
+	display: inline-block;
+}
 
 
 

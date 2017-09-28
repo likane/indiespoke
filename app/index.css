@@ -6,6 +6,8 @@
 	color:#262626;
 }
 
+
+
 .content {
 	margin-bottom: 20px;
 }
@@ -94,8 +96,22 @@
 
 }
 
-.footer:hover + .footlogo {
-	color: orange;
+
+
+.footlogo:hover {
+	color: #e84b12 !important;
+}
+
+span{
+	display: inline-block;
+	
+}
+
+i{
+	color: #fff !important;
+}
+i:hover{
+	color: #e84b12 !important;
 }
 
 @media (min-width: 576px){
