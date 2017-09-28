@@ -82,21 +82,34 @@
 	margin: auto 0px;
 }
 
-// .card-img .btn:hover{
-// 	background-color: none;
-// 	width: 100%;
-// 	margin: auto 0px;
-// 	color:#fff !important;
-// }
+.card-img-overlay span {
+	padding-top: 12px;
+	width: 15%;
+	margin:auto;
+	margin-left: 15%;
+}
+
+.card-img + .btn:hover{
+	background-color: none;
+	width: 100%;
+	margin: auto 0px;
+	color:#fff !important;
+}
 
 
 
 .footer {
 	margin-top: 25px;
-
+	
 }
 
+.navbar{
+	min-height: 60px;
 
+}
+.footlogo{
+	padding-left: 10px;
+}
 
 .footlogo:hover {
 	color: #e84b12 !important;
@@ -109,6 +122,7 @@ span{
 
 i{
 	color: #fff !important;
+	padding-right: 10px;
 }
 i:hover{
 	color: #e84b12 !important;
