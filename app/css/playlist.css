@@ -90,6 +90,11 @@ i:hover{
 	color: #e84b12 !important;
 }
 
+.fa-play {
+	color: #e84b12 !important;
+	font-size: 4rem;
+}
+
 @media (min-width: 576px){
 
 	.jumbotron {
