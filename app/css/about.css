@@ -6,41 +6,36 @@ h2, h3, h4, h5, p, a {
 	color:#262626;
 }
 
+p {
+	margin: auto 0px;
+	font-size: 1.2rem;
+}
+
 .aboutcontent {
 	margin-bottom: 20px;
+	margin-top: 20px;
 }
 
+.card-title{
+	margin-top: 25%;
+	font-size: 2rem;
+	color:#e84b12;
+}
+
+.logo{
+	color:#e84b12;
+}
+
+.topAbout {
+	margin-bottom: 20px;
+	
+}
+
+.bottomAbout{
+	
+}
 span{
 	display: inline-block;
-}
-
-
-
-.jumbotron{
-	background-color: #262626;
-	display: inline-block;
-	width: 100%;
-
-}
-
-.jumbotron h1 {
-	color: #e84b12;
-	font-family: 'Rokkitt', serif;
-	text-align: center;
-}
-
-.jumbotron h1:hover {
-	color: #fff;
-	font-family: 'Rokkitt', serif;
-	text-align: center;
-}
-
-.jumbotron .btn{
-	margin-right: 25px;
-}
-
-.display-3{
-	    font-size: 6.5rem;
 }
 
 .btn {
@@ -52,18 +47,6 @@ span{
 	background-color: none;
 	color:#fff;
 	border-color: #fff;
-}
-
-
-
-
-.footer {
-	margin-top: 25px;
-
-}
-
-.footer:hover + .footlogo {
-	color: orange;
 }
 
 @media (min-width: 576px){
