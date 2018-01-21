@@ -5,19 +5,11 @@
 	margin-bottom: 0px !important;
 
 }
-
 .jumbotron h1 {
 	color: #e84b12;
-	font-family: 'Rokkitt', serif;
+	font-family: 'Lato', sans-serif;
 	text-align: center;
 }
-
-// .jumbotron h1:hover {
-// 	color: #fff;
-// 	font-family: 'Rokkitt', serif;
-// 	text-align: center;
-
-// }
 
 .jumbotron .btn{
 	margin-right: 25px;

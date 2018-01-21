@@ -12,6 +12,7 @@
 
 .card {
 	margin: 9px 0px;
+	
 }
 
 .btn {
@@ -24,10 +25,6 @@
 	color:#fff;
 	border-color: #fff;
 }
-
-// .card-title{
-// 	font-family: 'Rokkitt', serif;
-// }
 
 .card-img-overlay    {
 	display: none;
