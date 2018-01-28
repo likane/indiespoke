@@ -69,6 +69,14 @@
 	color:#fff !important;
 }
 
+.twitter-head {
+	// float: right;
+	text-align: center;
+
+}
+
+
+
 @media (min-width: 576px){
 
 	.jumbotron {
