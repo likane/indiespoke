@@ -6,6 +6,10 @@
 	color:#262626;
 }
 
+.undertitle{
+	color: #fff;
+	padding-top: 6px;
+}
 .content {
 	margin-bottom: 20px;
 }
@@ -29,6 +33,7 @@
 .card-img-overlay    {
 	display: none;
 }
+
 
 .card-img:hover + .card-img-overlay {
 	display: inline-block;
