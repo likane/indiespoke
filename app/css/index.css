@@ -16,7 +16,11 @@
 
 .card {
 	margin: 9px 0px;
-	
+}
+
+.outsideTitle {
+	color: black;
+	margin-top: 4px;
 }
 
 .btn {
@@ -30,14 +34,25 @@
 	border-color: #fff;
 }
 
-.card-img-overlay    {
+/*.preTitle {
+	color: white;
+	text-align: center;
+}
+
+.preTitle:hover {
+	display: none;
+}*/
+
+.fade    {
 	display: none;
 }
 
 
-.card-img:hover + .card-img-overlay {
+.card-img:hover + .fade {
 	display: inline-block;
 }
+
+
 
 .card-img:hover {
 	 -webkit-filter: brightness(40%);
@@ -47,7 +62,6 @@
     -ms-transition: all .4s ;
     transition: all .4s ;
 }
-
 
 .card-img-overlay .btn{
 	background-color: none;
@@ -70,7 +84,7 @@
 }
 
 .twitter-head {
-	// float: right;
+	/*float: right;*/
 	text-align: center;
 
 }
